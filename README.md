@@ -1,1 +1,2 @@
-# Random-IT-Solution
+Pratham Jain 
+Random IT Solutions Project
