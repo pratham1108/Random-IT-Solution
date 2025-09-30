@@ -3,6 +3,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
+
+.btn {
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn i {
+  transform: translateY(-10%) translateX(-155px);
+  transition: transform 0.8s ease, right 0.8s ease;
+}
+
+.btn:hover i {
+  transform: translateY(-10%) translateX(15px);
+}
+
 /* ========================= NAVBAR & FOOTER COMMON ========================= */
 header {
   display: flex;
